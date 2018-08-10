@@ -1,0 +1,86 @@
+Cloaks:
+  Superhero:
+    Name: '&6炒鸡英雄的披风'
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7从漫画中跳跃而出的披风!炒鸡帅气!'
+  Mystical:
+    Name: '&6奥秘之披风'
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7让其他人都仰慕你的披风!'
+    - '&7所有披风中力量最强的披风'
+  Firewings:
+    Name: '&6雄火之披风'
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7从火焰废墟中涅槃重生的火凤凰'
+  Vampire Wings:
+    Name: '&6吸血鬼之翼'
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7从吸血鬼背上拔下来的翅膀'
+    - '&7还可以正常使用'
+  Frosty:
+    Name: '&6霜冻披风'
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7冰天雪地无法阻挡我的一腔热血!'
+  Icewings:
+    Name: '&6完美霜冻之披风'
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7只有我一个人觉得这里很冷吗？'
+  Shaman:
+    Name: '&6萨满披风'
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7被龙卷风包围你吧!'
+  Firerings:
+    Name: '&6火焰双翼'
+    Mystery Dust: 50
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7让火焰净化一切!'
+  Scanner:
+    Name: '&6督查之披风'
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7又有睿智开挂了!'
+    - '&7/hammer Kid_Lonely'
+    - '&7/diss Kid_Lonely'

@@ -1,0 +1,695 @@
+Prefix: '&3菜单 &6» &r'
+GUI-Menus:
+  Main: Main
+  Hats: Hats
+  Particles: Particles
+  Suits: Suits
+  Gadgets: Gadgets
+  Pets: Pets
+  Morphs: Morphs
+  Banners: Banners
+  Emotes: Emotes
+  Cloaks: Cloaks
+  Purchase-Menu:
+    GUI-Name: Confirm Purchase
+    Items:
+      Confirm:
+        Name: '&a确定'
+        Material: '159:5'
+        Lore: ''
+      Cancel:
+        Name: '&c取消'
+        Material: '159:14'
+        Lore: ''
+  Confirm-Open-Mystery-Box-Menu:
+    GUI-Name: Confirm Open
+    Items:
+      Open:
+        Name: '&a开启'
+        Material: '35:13'
+        Lore:
+        - '&7开启一个宝箱.'
+        - ''
+        - '&7此操作不可取消!'
+      Cancel:
+        Name: '&c取消'
+        Material: '35:14'
+        Lore:
+        - '&7返回菜单'
+        - '&7'
+  Mystery-Vault-Menu:
+    GUI-Name: Mystery Vault
+    Items:
+      Error:
+        Name: '&c错误!'
+        Material: '160:14'
+        Lore:
+        - '&7你没有任何可以开启的&b宝箱&7!'
+      Loading-Mystery-Boxes:
+        Name: '&c加载中...'
+        Material: '160:14'
+        Lore:
+        - '&7正在载入你的宝箱!'
+        - '&7请重新打开宝箱库存界面!'
+      Mystery-Box-Information:
+        Name: '&a宝箱详情'
+        Material: '340:0'
+        Slot: 49
+        Lore:
+        - '&b宝箱中&7有着无数的饰品等着你去发现!'
+        - '&7(〃'▽'〃)'
+        - '&b你可以通过在各小游戏服务器游玩来获取宝箱!'
+        - '&7(｀・ω・´)'
+        - ''
+        - '&e您最近获得的五个物品:'
+        - '&71. {RECENT_LOOT_1}'
+        - '&72. {RECENT_LOOT_2}'
+        - '&73. {RECENT_LOOT_3}'
+        - '&74. {RECENT_LOOT_4}'
+        - '&75. {RECENT_LOOT_5}'
+        - ''
+        - '&7您拥有: &b{MYSTERY_BOXES} 个宝箱'
+      Craft-Mystery-Boxes:
+        Name: '&a制作宝箱'
+        Material: '145:0'
+        Show: true
+        Slot: 50
+        Lore:
+        - '&7当您再次获得相同的物品时'
+        - '&7您将收到一定数量的宝箱碎片'
+        - '&7您可以使用碎片制作宝箱来获取新的物品!'
+        - ''
+        - ''
+        - '&7您拥有: &b{MYSTERY_DUST} 宝箱碎片'
+        - '&e点击打开制作菜单'
+      Gift-Inventory:
+        Name: '&a赠送礼物'
+        Show: true
+        Texture: http://textures.minecraft.net/texture/d2ac1c51807e261c12c4f2adbad36b8b2c497c277f7223ec244cb4608c59c
+        Slot: 48
+        Lore:
+        - '&7在这里您可以将礼物赠送给你的挚友!'
+        - ''
+        - ''
+        - '&7您所购买的礼物包将会显示在这里'
+        - ''
+        - ''
+        - '&7礼物送至: &e{GIFT_SENT}'
+        - '&7收到礼物: &e{GIFT_RECEIVED}'
+        - ''
+        - '&e点击查看您的礼物库存!'
+      Animations:
+        Name: '&a特效'
+        Material: '331:0'
+        Slot: 53
+        Lore:
+        - '&7设置您开启宝箱时的特效'
+        - ''
+        - ''
+      Open-Multiple-Boxes:
+        Name: '&c同时开启多个宝箱'
+        Material: '399:0'
+        Slot: 51
+        Lore:
+        - '&7一次开启多个宝箱!'
+        - ''
+  Mystery-Box-Crafting-Menu:
+    GUI-Name: Mystery Box Crafting
+    Items:
+      1-Star:
+        Name: '&b宝箱#1'
+        Material: '130:0'
+        Price: 100
+        Lore:
+        - '&7此宝箱包括以下内容:'
+        - ''
+        - ''
+        - '&a普通物品&7: &b4'
+        - '&9稀有物品&7: &b1'
+        - '&5史诗物品&7: &b1'
+        - '&6传奇物品&7: &b1'
+        - ''
+        - '&7品质: &e✰&7✰✰✰✰'
+        - ''
+        - '&7花费: &a{COST} &7宝箱碎片'
+        - '&a点击制作!'
+      2-Star:
+        Name: '&b宝箱#2'
+        Material: '130:0'
+        Price: 200
+        Lore:
+        - '&7此宝箱包括以下内容:'
+        - ''
+        - ''
+        - '&a普通物品&7: &b3'
+        - '&9稀有物品&7: &b2'
+        - '&5史诗物品&7: &b1'
+        - '&6传奇物品&7: &b1'
+        - ''
+        - '&7品质: &e✰✰&7✰✰✰'
+        - ''
+        - '&7花费: &a{COST} &7宝箱碎片'
+        - '&a点击制作!'
+      3-Star:
+        Name: '&b宝箱#3'
+        Material: '130:0'
+        Price: 300
+        Lore:
+        - '&7此宝箱包括以下内容:'
+        - ''
+        - ''
+        - '&a普通物品&7: &b2'
+        - '&9稀有物品&7: &b2'
+        - '&5史诗物品&7: &b2'
+        - '&6传奇物品&7: &b1'
+        - ''
+        - '&7品质: &e✰✰✰&7✰✰'
+        - ''
+        - '&7花费: &a{COST} &7宝箱碎片'
+        - '&a点击制作!'
+      4-Star:
+        Name: '&b宝箱#4'
+        Material: '130:0'
+        Price: 400
+        Lore:
+        - '&7此宝箱包括以下内容:'
+        - ''
+        - ''
+        - '&a普通物品&7: &b1'
+        - '&9稀有物品&7: &b1'
+        - '&5史诗物品&7: &b2'
+        - '&6传奇物品&7: &b3'
+        - ''
+        - '&7品质: &e✰✰✰✰&7✰'
+        - ''
+        - '&7花费: &a{COST} &7宝箱碎片'
+        - '&a点击制作!'
+      5-Star:
+        Name: '&b宝箱#5'
+        Material: '130:0'
+        Price: 550
+        Lore:
+        - '&7此宝箱包括以下内容:'
+        - ''
+        - ''
+        - '&a普通物品&7: &b0'
+        - '&9稀有物品&7: &b1'
+        - '&5史诗物品&7: &b2'
+        - '&6传奇物品&7: &b4'
+        - ''
+        - '&7品质: &e✰✰✰✰✰'
+        - ''
+        - '&7花费: &a{COST} &7宝箱碎片'
+        - '&a点击制作!'
+  Gift-Inventory-Menu:
+    GUI-Name: Gift Inventory
+    Items:
+      Mystery-Gift:
+        Name: '&a宝箱礼物包 (五合一装)'
+        Material: '130:0'
+        Lore:
+        - '&7这个礼物包中有&a5个&b宝箱'
+        - ''
+        - ''
+        - '&e点击赠送给另一位玩家'
+      Error:
+        Name: '&c错误!'
+        Material: '160:14'
+        Lore:
+        - '&7您没有任何可以赠送的&b礼物包&7!'
+  Send-Gift-Menu:
+    GUI-Name: Online Players
+    Items:
+      Mystery-Gift:
+        Name: '&a宝箱礼物包 (五合一装)'
+        Material: '130:0'
+        Lore:
+        - '&7这个礼物包中有&a5个&b宝箱'
+        - ''
+        - ''
+        - '&b选择一位玩家来把这份礼物送给你的那个他/她/它/LGBT+!'
+      Player:
+        Lore:
+        - ''
+        - '&a点击送礼!'
+  Confirm-Send-Gift-Menu:
+    GUI-Name: Confirm Send Gift
+    Items:
+      Player:
+        Name: '&7{PLAYER}'
+        Lore: ''
+      Mystery-Gift:
+        Name: '&a宝箱礼物包 (五合一装)'
+        Material: '130:0'
+        Lore:
+        - '&7这个礼物包中有&a5个&b宝箱'
+        - ''
+      Confirm:
+        Name: '&a确定'
+        Material: '159:5'
+        Lore: ''
+      Cancel:
+        Name: '&c取消'
+        Material: '159:14'
+        Lore: ''
+  Settings-Menu:
+    GUI-Name: Settings
+    Items:
+      Ignore-Cooldown:
+        Name: '&a忽略冷却'
+        Material: '166:0'
+        Lore: ''
+      Self-Morph-View:
+        Name: '&a变形时是否开启第三人称视角'
+        Material: '381:0'
+        Lore: ''
+      Enabled:
+        Name: '&a开启'
+        Material: '35:5'
+        Lore: ''
+      Disabled:
+        Name: '&c关闭'
+        Material: '35:14'
+        Lore: ''
+  Mystery-Vault-Animations-Menu:
+    GUI-Name: Mystery Vault Animations
+  Open-Multiple-Boxes-Menu:
+    GUI-Name: Open Multiple Boxes
+    Items:
+      Open-20-Boxes:
+        Name: '&a开启20个宝箱'
+        Material: '399:0'
+        Lore:
+        - '&7一次性开启20个宝箱'
+        - ''
+      Open-50-Boxes:
+        Name: '&a开启50个宝箱'
+        Material: '399:0'
+        Lore:
+        - '&7一次性开启50个宝箱'
+        - ''
+      Open-250-Boxes:
+        Name: '&a开启250个宝箱'
+        Material: '399:0'
+        Lore:
+        - '&7一次性开启250个宝箱'
+        - ''
+  Confirm-Open-Multiple-Boxes-Menu:
+    GUI-Name: Confirm Open Multiple Boxes
+    Items:
+      Confirm:
+        Name: '&a确认'
+        Material: '159:5'
+        Lore: ''
+      Cancel:
+        Name: '&c取消'
+        Material: '159:14'
+        Lore: ''
+Items:
+  Go-Back:
+    Name: '&e返回'
+    Material: '262:0'
+    Show: true
+    Lore: ''
+  Previous-Page:
+    Name: '&e上一页'
+    Material: '262:0'
+    Lore:
+    - '&e第{PAGE}页'
+  Next-Page:
+    Name: '&e下一页'
+    Material: '262:0'
+    Lore:
+    - '&e第{PAGE}页'
+  Already-Selected:
+    Show-In-Lore: true
+    Lore:
+    - ''
+    - '&7已选中'
+  Click-To-Select:
+    Show-In-Lore: true
+    Lore:
+    - ''
+    - '&e点击选择'
+  Unlocked:
+    Show-In-Lore: true
+    Lore:
+    - ''
+    - '&7已解锁: &c{HASPERMISSION}/{SIZE} &8({PERCENTAGE}%)'
+    - ''
+    - '&e点击浏览!'
+  Settings:
+    Name: '&e设置'
+    Material: '404:0'
+    Show: true
+    Lore:
+    - '&7修改你的个人设置'
+    - ''
+  MainMenu-Item:
+    Name: '&a主菜单'
+    Material: '146:0'
+    Show: true
+    Lore:
+    - '&7宝箱碎片: &b{MYSTERY_DUST}'
+    - '&7宝箱: &b{MYSTERY_BOXES}'
+    - ''
+    - '&7地球天空将会持续更新宝箱内容!'
+    - '&7感谢玩家们对地球天空多年来的支持!'
+    - '&4Enjoy!'
+    - '&7'
+  Morph-Slimeball:
+    Name: '&a激活变形'
+  Self-Morph-View:
+    Name: '&e变形时开启第三人称视角'
+    Material: '381:0'
+    Show: true
+    Lore:
+    - '&7状态: {STATUS}'
+    - ''
+    - '&e点击调整变形后的视角.'
+  Rename-Pet:
+    Name: '&e命名您的宠物'
+    Material: '421:0'
+    Show: true
+    Lore:
+    - '&7重命名您的宠物.'
+  Pages:
+    Name: ' &r(第 {CURRENT_PAGE}/{MAX_PAGES} 页)'
+  Enough-Mystery-Dust:
+    Lore:
+    - ''
+    - '&e点击使用 &b{MYSTERY_DUST} &e碎片制作!'
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Not-Enough-Mystery-Dust:
+    Lore:
+    - ''
+    - '&c点击使用 &b{MYSTERY_DUST} &c碎片制作!'
+    - '&c您还需要 &b{SURPLUS_MYSTERY_DUST} &c碎片才可以制作宝箱!'
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_ENDERMEN_TELEPORT
+  Item-Unpurchasable:
+    Lore:
+    - ''
+    - '&c无法使用碎片制作.'
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_ENDERMEN_TELEPORT
+  Failed-To-Purchase:
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_ENDERMEN_TELEPORT
+  Multiple-Boxes-Loot-Book:
+  - '       &1&l宝箱'
+  - ''
+  - '&0您在宝箱中翻到了以下物品:'
+  - '&9&l+{MYSTERY_DUST} 宝箱碎片'
+  - ''
+  - ''
+  - '&0去下一页查看所有物品'
+  Settings-Status:
+  - '&e&l{SETTING}'
+  - ''
+  - '  &b状态: {STATUS}'
+  - ''
+  Random-Mystery-Vault-Animation:
+    Name: '&e随机特效'
+    Material: '368:0'
+    Show: true
+    Lore:
+    - '&7随机你所使用的特效'
+    - ''
+    - ''
+    - ''
+    - '&b状态: {STATUS}'
+    - ''
+Reset-Buttons:
+  Reset-Cosmetics:
+    Name: '&c重置饰品'
+    Material: '95:14'
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Hat:
+    Name: '&c重置帽子'
+    Material: '95:14'
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Particle:
+    Name: '&c重置粒子效果'
+    Material: '95:14'
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Suit:
+    Name: '&c重置时装'
+    Material: '95:14'
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Gadget:
+    Name: '&c重置玩具'
+    Material: '95:14'
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Pet:
+    Name: '&c重置宠物'
+    Material: '95:14'
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Morph:
+    Name: '&c重置变形'
+    Material: '95:14'
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Banner:
+    Name: '&c重置旗帜'
+    Material: '95:14'
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Emote:
+    Name: '&c重置表情'
+    Material: '95:14'
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Cloak:
+    Name: '&c重置披风'
+    Material: '95:14'
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+Cooldown-In-Action-Bar:
+  Enabled: true
+  Cooldown-Block:
+    Remain: '&c|'
+    Retain: '&a|'
+    Amount-Of-Blocks: 100
+  Cooldown-Message: '{NAME} &f{COOLDOWN_BLOCK} &f{TIME_LEFT}s'
+Item-Purchase-Messages:
+  Purchase-Hat: '{PREFIX}&e您购买了 {ITEM}&e.'
+  Purchase-Particle: '{PREFIX}&e您购买了{ITEM}&e.'
+  Purchase-Suit: '{PREFIX}&e您购买了{ITEM}&e.'
+  Purchase-Gadget: '{PREFIX}&e您购买了{ITEM}&e.'
+  Purchase-Pet: '{PREFIX}&e您购买了{ITEM}&e.'
+  Purchase-Morph: '{PREFIX}&e您购买了{ITEM}&e.'
+  Purchase-Banner: '{PREFIX}&e您购买了{ITEM}&e.'
+  Purchase-Emote: '{PREFIX}&e您购买了{ITEM}&e.'
+  Purchase-Cloak: '{PREFIX}&e您购买了{ITEM}&e.'
+Checking-For-Update: '{PREFIX}&rChecking for updates...'
+Cooldown: '{PREFIX}&c在再次使用此物品前, 您必须等待&b{COOLDOWN}秒!'
+Error: '{PREFIX}&c发生了一个错误!'
+No-Permission: '{PREFIX}&c您没有所需的权限 {PERMISSION}!'
+World-Disabled: '{PREFIX}&c您没有这个世界中所需的权限来这样做!'
+Scanning-Player-Data-Files: '{PREFIX}&eScanning player data files...'
+Deleted-Player-Data-Files: '{PREFIX}&c{DELETED_FILES} &efiles has been deleted and
+  have &a{NON_DELETED_FILES} &efiles left.'
+Folder-Is-Empty: '{PREFIX}&c未找到任何玩家数据文件夹.'
+Banners-Are-Disabled: '{PREFIX}&c旗帜饰品已禁用!'
+Cloaks-Are-Disabled: '{PREFIX}&c披风饰品已禁用!'
+Emotes-Are-Disabled: '{PREFIX}&c表情饰品已禁用!'
+Gadgets-Are-Disabled: '{PREFIX}&c玩具已禁用!'
+Hats-Are-Disabled: '{PREFIX}&c帽子饰品已禁用!'
+Morphs-Are-Disabled: '{PREFIX}&c变形已禁用!'
+Particles-Are-Disabled: '{PREFIX}&c粒子效果已禁用!'
+Pets-Are-Disabled: '{PREFIX}&c宠物已禁用!'
+Suits-Are-Disabled: '{PREFIX}&c时装已禁用!'
+Select-Banner: '&e您装上了{BANNER}&e.'
+Select-Cloak: '&e您装上了{CLOAK}&e.'
+Select-Emote: '&e您装上了{EMOTE}&e.'
+Select-Gadget: '&e您装上了{GADGET}&e.'
+Select-Hat: '&e您装上了{HAT}&e.'
+Select-Morph: '&e您现在已变形为{MORPH}&e.'
+Select-Particle: '&e您装上了{PARTICLE}&e.'
+Select-Pet: '&e您的宠物 {PET} &e已生成.'
+Select-Suit: '&e您装上了{SUIT}&e.'
+Reset-Banner: '&e重置旗帜.'
+Reset-Cloak: '&e重置披风.'
+Reset-Cosmetics: '&e重置已激活的饰品.'
+Reset-Emote: '&e重置表情.'
+Reset-Gadget: '&e重置玩具.'
+Reset-Hat: '&e重置帽子.'
+Reset-Morph: '&e重置变形.'
+Reset-Particle: '&e重置粒子效果.'
+Reset-Pet: '&e重置宠物.'
+Reset-Suit: '&e重置时装.'
+Characters-Too-Long: '{PREFIX}&c宠物的名字不能长于 {CHARACTERS}
+  个字!'
+Does-Not-Support-Characters: '{PREFIX}&c您只能使用英文来命名宠物.'
+Does-Not-Support-Special-Characters: '{PREFIX}&c您不可以输入特殊符号.'
+No-Player-Nearby: '{PREFIX}&c周围没有任何玩家!'
+Not-Allowed-From-Console: '{PREFIX}&cYou cannot use this command from console!'
+Not-Enough-Space: '{PREFIX}&c您周围没有足够的空间来使用此玩具!'
+Not-Enough-Space-For-Target-Block: '{PREFIX}&c您所选的方块周围没有足够的空间来使用此玩具!'
+Not-On-Ground: '{PREFIX}&c您必须在地面上才可以使用!'
+Not-On-Flat-Ground: '{PREFIX}&c您必须在平整地面上才可以使用!'
+Stand-On-Two-Blocks-High: '{PREFIX}&c您必须站在高于两格高的实心方块上!'
+Player-Not-Found: '{PREFIX}&c未找到此玩家!'
+Player-Is-Offline: '{PREFIX}&c此玩家不在线!'
+Plugin-Reloaded: '{PREFIX}&3GadgetsMenu plugin has been reloaded.'
+Reloading-Plugin: '{PREFIX}&3Reloading plugin...'
+Required-Number-Format: '{PREFIX}&c需要一个数字!'
+Required-Positive-Number: '{PREFIX}&c需要一个正数!'
+Target-A-Block: '{PREFIX}&c您必须选中一个方块!'
+Target-A-Player: '{PREFIX}&c您必须选中一个玩家!'
+Remove-Item-From-Slot-To-Equip-Gadget: '{PREFIX}&c您必须移除在您物品栏第
+  {SLOT}格的物品&b{ITEM}&c才能启用此玩具!'
+Remove-Item-From-Slot-To-Equip-Morph: '{PREFIX}&c您必须移除在您物品栏第
+  {SLOT}格的物品&b{ITEM}&c才能启用此变形!'
+Remove-Item-From-Slot-To-Equip-Emote: '{PREFIX}&c您必须移除在您物品栏第
+  {SLOT}格的物品&b{ITEM}&c才能启用此表情!'
+Remove-Helmet-To-Equip-Hat: '{PREFIX}&c您必须先将您的帽子取下才可带上新帽子!'
+Remove-Helmet-To-Equip-Banner: '{PREFIX}&c您必须先将您的帽子取下才可带上旗帜!'
+Remove-Helmet-To-Equip-Emote: '{PREFIX}&c您必须先将您的帽子取下才可带上表情!'
+Remove-Armor-To-Equip-Suit: '{PREFIX}&c您必须先将您的盔甲取下才可带上时装!'
+Failed-To-Purchase: '&c购买物品获取失败!'
+Item-Unpurchasable: '{PREFIX}&c您不可以购买此物品!'
+Player-Not-Enough-MysteryDust: '{PREFIX}&c您只有&b{MYSTERY_DUST} &c宝箱碎片!'
+Added-MysteryDust: '{PREFIX}&eYou''ve successfully added &b{MYSTERY_DUST} &emystery
+  dust to &b{PLAYER}&e.'
+Check-MysteryDust: '&e{PLAYER} 拥有 &b{MYSTERY_DUST} &e宝箱碎片.'
+Received-MysteryDust: '{PREFIX}&e您已收到由玩家&b{PLAYER}&e所赠送的&b{MYSTERY_DUST} &e宝箱碎片'
+Removed-MysteryDust: '{PREFIX}&e您已扔掉由玩家&b{PLAYER}&e所赠送的&b{MYSTERY_DUST} &e宝箱碎片'
+Sent-MysteryDust: '{PREFIX}&e您成功为玩家&b{PLAYER}&e赠送了 &b{MYSTERY_DUST} &e宝箱碎片'
+Set-MysteryDust: '{PREFIX}&e您成功设置了玩家&b{PLAYER}&e的宝箱碎片数量为&b{MYSTERY_DUST} &e'
+Only-Have-MysteryDust: '{PREFIX}&b{PLAYER} &c只拥有 &b{MYSTERY_DUST} &c宝箱碎片!'
+Removed-MysteryDust-From-Player: '{PREFIX}&b{MYSTERY_DUST} &e宝箱碎片已从您的账户移除.'
+Set-Player-MysteryDust: '{PREFIX}&e您的宝箱碎片已被设置为 &b{MYSTERY_DUST}&e.'
+Not-Enough-MysteryDust-To-Purchase: '{PREFIX}&c抱歉, 您没有足够的宝箱碎片来购买此物品!'
+Pay-MysteryDust-To-Self: '{PREFIX}&c您不能为您自己支付宝箱碎片!'
+Gave-Mystery-Boxes: '{PREFIX}&e您成功向玩家 &b{PLAYER}&e 赠送了 &b{MYSTERY_BOXES} 宝箱碎片.'
+Gave-Mystery-Boxes-To-All-Players: '{PREFIX}&e您成功的为总计&b{ONLINE} &e名玩家送去了来自您的祝福!
+您总计送出了&b {MYSTERY_BOXES}&e宝箱!为您的慷慨大方祝福你!'
+Received-Mystery-Boxes: '{PREFIX}&e您从玩家&b{PLAYER}&e处收到了&b{MYSTERY_BOXES} 宝箱碎片.'
+Added-Mystery-Vault: '{PREFIX}&a成功创建宝箱库存 &f''{NAME}''&a.'
+Redefined-Mystery-Vault: '{PREFIX}&a此位置的宝箱库存 &f''{NAME}'' &a已被重置.'
+Mystery-Vault-Same-Location: '{PREFIX}&c您已在此处建立宝箱库存!'
+Mystery-Vault-Is-Exists: '{PREFIX}&c已存在相同名字的宝箱库存!'
+Do-Not-Have-Any-Mystery-Vault: '{PREFIX}&c您并没有创建任何宝箱库存!'
+No-Mystery-Vault-Nearby: '{PREFIX}&c在指定范围内并没有任何宝箱库存!'
+Removed-Mystery-Vault: '{PREFIX}&a宝箱库存&f''{NAME}''&a移除成功.'
+Mystery-Vault-Not-Found: '{PREFIX}&c在此处无法找到任何宝箱库存'
+Mystery-Vault-Not-Found-With-Name: '{PREFIX}&c无法找到任何名为&f''{NAME}''&c的宝箱库存!'
+Teleport-To-Mystery-Vault: '{PREFIX}&e您已成功传送至名为
+  &f''{NAME}''&e的宝箱库存.'
+Open-Mystery-Vault-At-A-Time: '{PREFIX}&c同时只能有一位玩家使用此宝箱库存!'
+Can-Only-Open-One-Mystery-Box: '{PREFIX}&c请先等待上一个宝箱开启完毕!'
+Purchase-Cancelled: '{PREFIX}&c购买取消!'
+Mystery-Boxes-Are-Disabled: '{PREFIX}&c宝箱已禁用!'
+Crafted-Mystery-Box: '&a您制造了&b{NAME}&a.'
+Gave-Mystery-Gifts: '{PREFIX}&e您成功的赠送了&b{GIFTS} &e份宝箱礼物包给那位玩家&r{PLAYER}&e.'
+Received-Mystery-Gifts: '{PREFIX}&e您从另一位玩家&r{PLAYER}&e处收到了&b{GIFTS} &e份礼物.'
+Send-A-Gift-To-Player: '&a您送出了一份包含&b5个宝箱&a的礼物包给那位&r{PLAYER}&a!'
+Received-Gift: '&a您收到了玩家&r{PLAYER}&a送来的礼物! 访问&b宝箱库存&a来开启它!'
+Mystery-Box-Was-Expired: '{PREFIX}&c这个宝箱已经过期了. 以后请在宝箱过期前开启.'
+Check-Mystery-Boxes: '&e{PLAYER} 拥有 &b{MYSTERY_BOXES} &e宝箱.'
+Select-Mystery-Vault-Animation: '&e您装上了&b{ANIMATION} &e作为了宝箱开启特效.'
+Not-Enough-Mystery-Boxes: '&c您没有足够的宝箱可供开启.'
+Counting-Mystery-Boxes: '&c小林正在地上打滚...'
+Emote-Is-Activated: '{PREFIX}&c表情现已可用!'
+Gadget-Is-Activated: '{PREFIX}&c{GADGET} 现已可用!'
+Is-Not-Morphed: '&c您现在并没有变形!'
+Morph-Skill-Is-Activated: '{PREFIX}&c{MORPH}已启用!'
+Rename-Pet: '&e设置您宠物的名字为&a{NAME}&e.'
+Rocket-Countdown: '&c&l火  箭  發  射  不  可  避, {TIMER} {SECOND}后发射!'
+Rocket-Lift-Off: '&a&l火  箭  警  报!'
+Enabled-Self-Morph-View: '{PREFIX}&e您为变形后开启了第三人称视角!'
+Disabled-Self-Morph-View: '{PREFIX}&e您为变形后关闭了第三人称视角!'
+Enabled-Bypass-Cooldown: '{PREFIX}&e您开启了冷却bypass.'
+Disabled-Bypass-Cooldown: '{PREFIX}&e您关闭了冷却bypass.'
+Enabled-Random-Mystery-Vault-Animation: '{PREFIX}&e您为您的&a开箱动画开启了&b随机动画
+'
+Disabled-Random-Mystery-Vault-Animation: '{PREFIX}&e您为您的&c开箱动画关闭了&b随机动画'
+Rename-Pet-In-Chat: |-
+  &e您有&c20 &e秒的时间来输入宠物的名称, 请在聊天栏中输入.
+  &e输入 &2Cancel &e来取消命名您的宠物.
+Timed-Out: '&c命名时间已到, 您没有命名您的宠物!'
+Cancel-Rename-Pet: '&c宠物命名取消.'
+Reset-Suit-Helmet: '&e重置帽子.'
+Reset-Suit-Chestplate: '&e重置衣服.'
+Reset-Suit-Leggings: '&e重置裤子.'
+Reset-Suit-Boots: '&e重置靴子.'
+Disabled-Command-While-Cosmetics-Activated: '{PREFIX}&c饰品已启用时禁用此指令!'
+Invalid-Type: '{PREFIX}&c您所输入的类型 {TYPE} 无效!'
+Type-Is-Not-Enabled: '{PREFIX}&c此类型 {TYPE} 未开启!'
+Suit-Ability-Is-Activated: '{PREFIX}&c{SUIT} 未激活!'
+Morph-Ability-Is-Disabled: '{PREFIX}&c{MORPH} 未开启!'
+Turn-Off-Bumblebee-Song: '{PREFIX}&c大黄蜂之歌已停止!'
+Only-Boolean-Value-Can-Be-Accepted: '&c只接受“true”或者“false”!'
+Required-Time-Format: '{PREFIX}&cPlease fill in the correct time format! (''h'' for
+  hours,''d'' for days, ''m'' for months).'
+Required-Full-Data: '{PREFIX}&cPlease make sure your data is not missing.'
+Playing-Song: '{RANDOM_COLOR}DJ：PureBlue_Rem 正在打碟: {SONG}'
+Already-Activate-One: '{PREFIX}&c已经激活了一个玩具 {GADGET} ! 请稍后重试.'
+Gadget-Activated-In-Same-Area: '{PREFIX}&c这片区域已经激活了一个玩具!
+  请在另一个区域重试'
+Enabled: '&a开启'
+Disabled: '&c关闭'
+Cooldown-Bypass: 冷却bypass
+Self-Morph-View: 变形时切换第三人称
+Not-Allowed-Cosmetics-In-Region: '{PREFIX}&c此区域禁用所有饰品.'
+Not-Allowed-Hat-In-Region: '{PREFIX}&c此区域禁用帽子.'
+Not-Allowed-Particle-In-Region: '{PREFIX}&c此区域禁用效果.'
+Not-Allowed-Suit-In-Region: '{PREFIX}&c此区域禁用衣服.'
+Not-Allowed-Gadget-In-Region: '{PREFIX}&c此区域禁用玩具.'
+Not-Allowed-Pet-In-Region: '{PREFIX}&c此区域禁用宠物.'
+Not-Allowed-Morph-In-Region: '{PREFIX}&c此区域禁用变形.'
+Not-Allowed-Banner-In-Region: '{PREFIX}&c此区域禁用旗帜.'
+Not-Allowed-Emote-In-Region: '{PREFIX}&c此区域禁用表情.'
+Not-Allowed-Cloak-In-Region: '{PREFIX}&c此区域禁用披风.'
+Second: 秒
+Seconds: 秒
+Minute: 分
+Minutes: 分
+Hour: 时
+Hours: 时
+Day: 日
+Days: 日
+None-Cosmetic-Has-Been-Selected: none

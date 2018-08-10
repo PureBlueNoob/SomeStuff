@@ -1,0 +1,228 @@
+Emotes:
+  Smile:
+    Name: '&a微笑'
+    Cooldown: 10
+    Mystery Dust: 10
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f微笑'
+    Lore:
+    - '&7这时只要微笑就可以了!'
+  Cool:
+    Name: '&a装酷'
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fB)'
+    Lore:
+    - '&7想成为服务器最酷的玩家吗?快戴上我吧!'
+  Wink:
+    Name: '&a眨眼'
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f眨眼'
+    Lore:
+    - '&7帅气的眨眨你那时髦的眼睫毛(?'
+  Grin:
+    Name: '&a咧嘴笑'
+    Cooldown: 10
+    Mystery Dust: 13
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fYay!'
+    Lore:
+    - '&7如果你心里十分美滋滋'
+    - '&7那么这将是你最好的表达你内心心情的表情!'
+  Surprised:
+    Name: '&a惊讶'
+    Cooldown: 10
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f惊了'
+    Lore:
+    - '&7让全大厅的人都知道你被震惊了!'
+  Cry:
+    Name: '&9哭哭'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f呜呜呜呜~'
+    Lore:
+    - '&7心情不顺？快戴上我吧!'
+  Sleepy:
+    Name: '&9困倦'
+    Cooldown: 10
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fZZzzzz'
+    Lore:
+    - '&7熬夜肝游戏累炸了?'
+    - '&7现在戴上我, 然后在桌子上睡去吧!'
+  Rage:
+    Name: '&9愤怒'
+    Cooldown: 10
+    Mystery Dust: 23
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&c啊啊啊啊啊啊!!!'
+    Lore:
+    - '&7被某事气到血脉喷张?'
+    - '&7试试我吧!'
+  Frown:
+    Name: '&9皱眉'
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&femmmm…'
+    Lore:
+    - '&7被挫折击倒了?'
+    - '&7戴上我吧!'
+  Cheeky:
+    Name: '&9厚颜无耻'
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f:P'
+    Lore:
+    - '&7&m我从未见过如此厚颜无耻之人!'
+  Sun Tan:
+    Name: '&9古铜色皮肤'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f阳光!'
+    Lore:
+    - '&7你可曾在烈日下忘带防晒霜而惊慌失措?'
+    - '&7戴上我来表示你根本不care!'
+  Heart Eyes:
+    Name: '&9心眼'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&d❤  ❤'
+    Lore:
+    - '&7充满&m&0色气&r&7爱意的眼神'
+  Dizzy:
+    Name: '&9头晕眼花'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fx_x'
+    Lore:
+    - '&7感到头晕眼花, 四肢无力, 被水淹没吗？'
+    - '&7戴上我吧!'
+  RIP:
+    Name: '&9安息吧'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f愿万魂此世长存'
+    Lore:
+    - '&7像你的对手展现你的怜悯!'
+  Relax:
+    Name: '&9放松'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f舒糊'
+    Lore:
+    - '&7玩累了?来放松下吧!'
+  Spicy:
+    Name: '&9好辣!'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f吼吼吼吼!'
+    Lore:
+    - '&7辣椒真的好辣啊啊啊啊啊'
+  Deal With It:
+    Name: '&9您不服也得服!'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f不服憋着 :)'
+    Lore:
+    - '&7装逼必备'
